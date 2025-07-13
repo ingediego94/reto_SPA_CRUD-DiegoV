@@ -206,6 +206,7 @@ tr td:last-child {
 #studentForm{
     display: flex;
     flex-direction: column; 
+    align-items: center;
     gap: 1rem;
     background-color: white;
     border-radius: 8px;
@@ -259,3 +260,12 @@ tr td:last-child {
     cursor: pointer;
 }
 
+/*Create styles for general section*/
+.general-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--fondo);
+}
