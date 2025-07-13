@@ -1,0 +1,49 @@
+<section class="addNewStudentSection">
+    <h2>Add New Student</h2>
+    
+    
+
+    <form id="studentForm">
+        <div>
+            <img src="../imgs/studentPicture.jpg" alt="studentPicture">
+            <h3>Register New Student</h3>
+        </div>
+
+        <div>
+            <label for="id">ID</label>
+            <input id="id" type="number" class="form-control" required autofocus>
+        </div>
+
+        <div>
+            <label for="fullName">Full Name</label>
+            <input id="fullName" type="text" class="form-control" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" required>
+        </div>
+
+        <div>
+            <label for="phone">Phone</label>
+            <input id="phone" type="number" class="form-control" required>
+        </div>
+    
+        <div>
+            <label for="enrolNumber">Enrol Number</label>
+            <input id="enrolNumber" type="number" class="form-control" required>
+        </div>
+
+        <div>
+            <label for="admissionDate">Date of Admission</label>
+            <input id="admissionDate" type="date" class="form-control" required>
+        </div>
+
+        <!-- <button type="submit" class="btn">Cancel</button> -->
+        <button type="submit" class="btn">Save</button>
+        <button class="btn-cancel" onclick="history.back()">Cancelar</button>
+
+
+    </form>
+
+</section>

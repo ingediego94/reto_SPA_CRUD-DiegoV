@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "david",
+      "email": "davis@dsf.com",
+      "phone": "9999999",
+      "enrol_number": "88878787878",
+      "admission_date": "2025-07-16"
+    },
+    {
+      "id": "2",
+      "name": "Carlos",
+      "email": "carlosa@mail.connn",
+      "phone": "3243242311",
+      "enrol_number": "543223443543",
+      "admission_date": "2025-07-24"
+    },
+    {
+      "id": "3",
+      "name": "Ofelia Zapata",
+      "email": "ofelia@gmail.com.co",
+      "phone": 34324324,
+      "enrol_number": "64556456456",
+      "admission_date": "2025-07-01"
+    },
+    {
+      "id": "5",
+      "name": "Oscar Robledox",
+      "email": "robe@gmail.com",
+      "phone": "3432565",
+      "enrol_number": "7654543",
+      "admission_date": "2025-07-10"
+    },
+    {
+      "id": "6",
+      "name": "carlos fs",
+      "email": "mail@mail.tr",
+      "phone": 3423564654,
+      "enrol_number": "4534234324",
+      "admission_date": "2025-07-21"
+    },
+    {
+      "id": "44",
+      "name": "diego vallejosdsd",
+      "email": "gdsfgsdf@gmail.co",
+      "phone": 5645645645,
+      "enrol_number": "6546434234",
+      "admission_date": "2025-07-23"
+    }
+  ]
+}

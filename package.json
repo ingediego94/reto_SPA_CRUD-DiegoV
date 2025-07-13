@@ -1,0 +1,25 @@
+{
+  "name": "reto_spa_crud-diegov",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "server": "json-server --watch db.json --port 3301"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingediego94/reto_SPA_CRUD-DiegoV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingediego94/reto_SPA_CRUD-DiegoV/issues"
+  },
+  "homepage": "https://github.com/ingediego94/reto_SPA_CRUD-DiegoV#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^7.0.4"
+  }
+}
