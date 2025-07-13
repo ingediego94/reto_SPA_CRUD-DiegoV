@@ -195,7 +195,7 @@ document.addEventListener('click', async function (event) {
         try{
             const response = await fetch(`${url}/${id}`);
             const data = await response.json();
-            debugger;
+            
             container.innerHTML = `
                 <form id="edit-form"><input type="text" value=${data.name} placeholder="${data.name}"></input><input type="text" value=${data.email} placeholder="${data.email}"></input><input type="text" value=${data.phone} placeholder="${data.phone}"></input><input type="text" value=${data.enrol_number} placeholder="${data.enrol_number}"></input><input type="text" value=${data.admission_date} placeholder="${data.admission_date}"></input><button type="submit">Done</button></form>
             `

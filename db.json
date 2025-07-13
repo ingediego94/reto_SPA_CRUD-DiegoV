@@ -1,14 +1,6 @@
 {
   "students": [
     {
-      "id": "1",
-      "name": "david",
-      "email": "davis@dsf.com",
-      "phone": "9999999",
-      "enrol_number": "88878787878",
-      "admission_date": "2025-07-16"
-    },
-    {
       "id": "2",
       "name": "Carlos",
       "email": "carlosa@mail.connn",
@@ -34,19 +26,11 @@
     },
     {
       "id": "6",
-      "name": "carlos fs",
+      "name": "carlos faciolince",
       "email": "mail@mail.tr",
-      "phone": 3423564654,
+      "phone": "3423564654",
       "enrol_number": "4534234324",
       "admission_date": "2025-07-21"
-    },
-    {
-      "id": "44",
-      "name": "diego vallejosdsd",
-      "email": "gdsfgsdf@gmail.co",
-      "phone": 5645645645,
-      "enrol_number": "6546434234",
-      "admission_date": "2025-07-23"
     }
   ]
 }
