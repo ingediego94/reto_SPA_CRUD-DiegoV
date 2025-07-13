@@ -2,11 +2,11 @@
   "students": [
     {
       "id": "2",
-      "name": "Carlos",
-      "email": "carlosa@mail.connn",
-      "phone": "3243242311",
-      "enrol_number": "543223443543",
-      "admission_date": "2025-07-24"
+      "name": "Carlos Bustamante",
+      "email": "carlosa@mail.com",
+      "phone": "3004125856",
+      "enrol_number": "300005001",
+      "admission_date": "2025-07-31"
     },
     {
       "id": "3",
@@ -26,11 +26,11 @@
     },
     {
       "id": "6",
-      "name": "carlos faciolince",
-      "email": "mail@mail.tr",
-      "phone": "3423564654",
-      "enrol_number": "4534234324",
-      "admission_date": "2025-07-21"
+      "name": "Maria Alcazar",
+      "email": "23gata@gmail.com",
+      "phone": 3014827474,
+      "enrol_number": "8431585",
+      "admission_date": "2025-07-07"
     }
   ]
 }

@@ -10,7 +10,18 @@ function getViewFromHash(){
 }
 
 // Dynamically loads the HTML view.
+
 function loadView(nameOfView){
+    //************************************************** */
+    const user = JSON.parse(localStorage.getItem('login_success'));
+    // Vistas permitidas para user
+    const userAllowed = ['home', 'course', 'report'];
+    if (user && user.role !== 'admin' && !userAllowed.includes(nameOfView)) {
+        container.innerHTML = `<h2>Acceso denegado</h2><p>No tienes permisos para ver esta sección.</p>`;
+        return;
+    }
+    //************************************************** */
+
     fetch(`views/${nameOfView}.html`)    // It's mandatory that "views" will be the same name of the folder that contains the views in html, except index.html
         .then(res => {
             if(!res.ok) throw new Error(`No se pudo cargar la vista: ${nameOfView}`);
